@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Laptop store 66</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+    <h1>Laptop store 66</h1>
+        <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+        </nav>
+    </header>
+    <h2>Product Lists</h2>
+    <div>
+        <input type="text" id="searchInput" placeholder="Search products" onkeyup="filterProducts()">
+    
+        <!-- Brand Filter -->
+        <select id="categoryFilter" onchange="filterProducts()">
+            <option value="">Select Brand</option>
+            <option value="Lenovo">Lenovo</option>
+            <option value="Acer">Acer</option>
+            <option value="Dell">Dell</option>
+            <option value="Apple">Apple</option>
+            <option value="Asus">Asus</option>
+            <option value="HP">HP</option>
+            <option value="MSI">MSI</option>
+            <option value="Razer">Razer</option>
+        </select>
+        
+        <!-- Category Filter -->
+        <select id="brandFilter" onchange="filterProducts()">
+            <option value="">Select Category</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Office">Office</option>
+            <option value="Laptop">Laptop</option>
+            <option value="Workstation">Workstation</option>
+            <option value="2-in-1">2-in-1</option>
+            <option value="Business">Business</option>
+        </select>
+    
+        <!-- Price Filter -->
+        <input type="number" id="minPrice" placeholder="Min price" onchange="filterProducts()">
+        <input type="number" id="maxPrice" placeholder="Max price" onchange="filterProducts()">
+    </div>
+
+    <div id="product-list">
+        <!-- Sản phẩm sẽ được hiển thị tại đây -->
+    </div>
+
+
+  </section>
+<!-- footer.html -->
+<footer>
+    <div class="footer-container">
+        <!-- Thông tin liên hệ -->
+        <div class="footer-section">
+            <h3>Contact us</h3>
+            <p>Address: 123 ABC Street, XYZ District, Hanoi City</p>
+            <p>Phone: (028) 123 456 789</p>
+            <p>Email: support@laptopstore.com</p>
+        </div>
+
+        <!-- Liên kết nhanh -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </div>
+
+        <!-- Mạng xã hội -->
+        <div class="footer-section">
+            <h3>Connect with us</h3>
+            <div class="social-media">
+                <a href="" target="">
+                    <img src="images/FB.png" alt="Facebook" />
+                </a>
+                <a href="" target="">
+                    <img src="images/ING.png" alt="Instagram" />
+                </a>
+                <a href="" target="">
+                    <img src="images/X.png" alt="Twitter" />
+                </a>
+            </div>
+        </div>
+
+        <!-- Bản đồ -->
+        <div class="footer-section">
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=...your-map-url..." width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Bản quyền -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 Laptop Store. All rights reserved.</p>
+    </div>
+</footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

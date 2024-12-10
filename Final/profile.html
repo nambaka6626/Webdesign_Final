@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Your Profile</h1>
+  </header>
+  <section>
+    <h2>User Information</h2>
+    
+    <!-- User Info Display -->
+    <div class="user-info">
+      <p><strong>Username:</strong> <span id="username">John Doe</span></p>
+      <p><strong>Email:</strong> <span id="email">johndoe@example.com</span></p>
+      <p><strong>Phone Number:</strong> <span id="phone">+1234567890</span></p>
+      <p><strong>Address:</strong> <span id="address">123 Street, City, Country</span></p>
+      <p><strong>Balance:</strong> $<span id="balance">100.00</span></p>
+      
+      <!-- Avatar Display -->
+      <p><strong>Avatar:</strong> <img id="avatar" src="images/default-avatar.png" alt="User Avatar" width="100" height="100"></p>
+    </div>
+
+    <!-- Button to Edit Information -->
+    <button id="editInfoButton">Edit Information</button>
+
+    <!-- Edit Info Form (Initially Hidden) -->
+    <div id="editFormContainer" style="display: none;">
+      <h3>Edit Your Information</h3>
+      <form id="editForm">
+        <div class="form-group">
+          <label for="editUsername">Username:</label>
+          <input type="text" id="editUsername" value="John Doe">
+        </div>
+        <div class="form-group">
+          <label for="editEmail">Email:</label>
+          <input type="email" id="editEmail" value="johndoe@example.com">
+        </div>
+        <div class="form-group">
+          <label for="editPhone">Phone Number:</label>
+          <input type="tel" id="editPhone" value="+1234567890">
+        </div>
+        <div class="form-group">
+          <label for="editAddress">Address:</label>
+          <input type="text" id="editAddress" value="123 Street, City, Country">
+        </div>
+        <div class="form-group">
+          <label for="editBalance">Account Balance:</label>
+          <input type="number" id="editBalance" value="100.00" step="0.01">
+        </div>
+        <div class="form-group">
+          <label for="avatarUpload">Change Avatar:</label>
+          <input type="file" id="avatarUpload" accept="image/*">
+        </div>
+        <button type="submit">Save Changes</button>
+      </form>
+    </div>
+
+    <!-- Go Back Button -->
+    <button id="goBackButton" onclick="window.location.href='index.html';">Go Back</button>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Laptop & Phone Store</p>
+  </footer>
+
+  <script src="profile.js"></script>
+</body>
+</html>

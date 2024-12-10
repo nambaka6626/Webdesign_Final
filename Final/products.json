@@ -1,0 +1,267 @@
+[
+    {
+        "id": 1,
+        "name": "Lenovo Legion 5",
+        "image": "images/lenovo-legion5.jpg",
+        "price": 25000000,
+        "brand": "Lenovo",
+        "category": "Gaming"
+    },
+    {
+        "id": 2,
+        "name": "Acer Aspire 7",
+        "image": "images/acer-aspire7.jpg",
+        "price": 18000000,
+        "brand": "Acer",
+        "category": "Office"
+    },
+    {
+        "id": 3,
+        "name": "Dell Precision 5560",
+        "image": "images/dell-precision5560.jpg",
+        "price": 40000000,
+        "brand": "Dell",
+        "category": "Workstation"
+    },
+    {
+        "id": 4,
+        "name": "HP Spectre x360",
+        "image": "images/4.jpg",
+        "price": 35000000,
+        "brand": "HP",
+        "category": "Laptop"
+    },
+    {
+        "id": 5,
+        "name": "Asus ROG Strix G15",
+        "image": "images/5.jpg",
+        "price": 27000000,
+        "brand": "Asus",
+        "category": "Gaming"
+    },
+    {
+        "id": 6,
+        "name": "Apple MacBook Pro 16-inch",
+        "image": "images/6.jpg",
+        "price": 50000000,
+        "brand": "Apple",
+        "category": "Laptop"
+    },
+    {
+        "id": 7,
+        "name": "Microsoft Surface Laptop 4",
+        "image": "images/7.jpg",
+        "price": 30000000,
+        "brand": "Microsoft",
+        "category": "Laptop"
+    },
+    {
+        "id": 8,
+        "name": "MSI GE66 Raider",
+        "image": "images/8.jpg",
+        "price": 32000000,
+        "brand": "MSI",
+        "category": "Gaming"
+    },
+    {
+        "id": 9,
+        "name": "Razer Blade 15 Advanced",
+        "image": "images/9.jpg",
+        "price": 45000000,
+        "brand": "Razer",
+        "category": "Gaming"
+    },
+    {
+        "id": 10,
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "image": "images/10.jpg",
+        "price": 35000000,
+        "brand": "Lenovo",
+        "category": "Business"
+    },
+    {
+        "id": 11,
+        "name": "Acer Predator Helios 300",
+        "image": "images/11.jpg",
+        "price": 33000000,
+        "brand": "Acer",
+        "category": "Gaming"
+    },
+    {
+        "id": 12,
+        "name": "Dell XPS 13",
+        "image": "images/12.jpg",
+        "price": 27000000,
+        "brand": "Dell",
+        "category": "Laptop"
+    },
+    {
+        "id": 13,
+        "name": "HP Omen 15",
+        "image": "images/13.jpg",
+        "price": 32000000,
+        "brand": "HP",
+        "category": "Gaming"
+    },
+    {
+        "id": 14,
+        "name": "Asus ZenBook 14",
+        "image": "images/14.jpg",
+        "price": 24000000,
+        "brand": "Asus",
+        "category": "Laptop"
+    },
+    {
+        "id": 15,
+        "name": "MSI Stealth GS66",
+        "image": "images/15.jpg",
+        "price": 35000000,
+        "brand": "MSI",
+        "category": "Gaming"
+    },
+    {
+        "id": 16,
+        "name": "Apple MacBook Air M1",
+        "image": "images/16.jpg",
+        "price": 27000000,
+        "brand": "Apple",
+        "category": "Laptop"
+    },
+    {
+        "id": 17,
+        "name": "Lenovo IdeaPad 5",
+        "image": "images/17.jpg",
+        "price": 22000000,
+        "brand": "Lenovo",
+        "category": "Office"
+    },
+    {
+        "id": 18,
+        "name": "Acer Swift 3",
+        "image": "images/18.jpg",
+        "price": 21000000,
+        "brand": "Acer",
+        "category": "Laptop"
+    },
+    {
+        "id": 19,
+        "name": "Dell Inspiron 15",
+        "image": "images/19.jpg",
+        "price": 18000000,
+        "brand": "Dell",
+        "category": "Office"
+    },
+    {
+        "id": 20,
+        "name": "Asus VivoBook 15",
+        "image": "images/20.jpg",
+        "price": 19000000,
+        "brand": "Asus",
+        "category": "Laptop"
+    },
+    {
+        "id": 21,
+        "name": "HP Elite Dragonfly",
+        "image": "images/21.jpg",
+        "price": 55000000,
+        "brand": "HP",
+        "category": "Business"
+    },
+    {
+        "id": 22,
+        "name": "Lenovo Legion Y740",
+        "image": "images/22.jpg",
+        "price": 36000000,
+        "brand": "Lenovo",
+        "category": "Gaming"
+    },
+    {
+        "id": 23,
+        "name": "Acer Nitro 5",
+        "image": "images/23.jpg",
+        "price": 27000000,
+        "brand": "Acer",
+        "category": "Gaming"
+    },
+    {
+        "id": 24,
+        "name": "Razer Blade Stealth 13",
+        "image": "images/24.jpg",
+        "price": 38000000,
+        "brand": "Razer",
+        "category": "Gaming"
+    },
+    {
+        "id": 25,
+        "name": "   ",
+        "image": "images/25.jpg",
+        "price": 28000000,
+        "brand": "Asus",
+        "category": "Gaming"
+    },
+    {
+        "id": 26,
+        "name": "MSI GF63 Thin",
+        "image": "images/26.jpg",
+        "price": 23000000,
+        "brand": "MSI",
+        "category": "Gaming"
+    },
+    {
+        "id": 27,
+        "name": "Dell Alienware m15",
+        "image": "images/27.jpg",
+        "price": 42000000,
+        "brand": "Dell",
+        "category": "Gaming"
+    },
+    {
+        "id": 28,
+        "name": "Apple MacBook Pro 13-inch",
+        "image": "images/28.jpg",
+        "price": 45000000,
+        "brand": "Apple",
+        "category": "Laptop"
+    },
+    {
+        "id": 29,
+        "name": "Microsoft Surface Pro 7",
+        "image": "images/29.jpg",
+        "price": 33000000,
+        "brand": "Microsoft",
+        "category": "Laptop"
+    },
+    {
+        "id": 30,
+        "name": "HP Pavilion x360",
+        "image": "images/30.jpg",
+        "price": 25000000,
+        "brand": "HP",
+        "category": "Laptop"
+    },
+    {
+        "id": 31,
+        "name": "Asus Chromebook Flip",
+        "image": "images/31.jpg",
+        "price": 16000000,
+        "brand": "Asus",
+        "category": "Laptop"
+    },
+    {
+        "id": 32,
+        "name": "MSI Creator Z16",
+        "image": "images/32.jpg",
+        "price": 39000000,
+        "brand": "MSI",
+        "category": "Laptop"
+    },
+    {
+        "id": 33,
+        "name": "Dell Latitude 7400 2-in-1",
+        "image": "images/33.jpg",
+        "price": 42000000,
+        "brand": "Dell",
+        "category": "Business"
+    }
+   
+]
